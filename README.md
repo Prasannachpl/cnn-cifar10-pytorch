@@ -57,6 +57,7 @@ Model performance was analyzed using a confusion matrix and class-wise error ana
 The model performs well on visually distinct classes such as automobiles, ships, and trucks, while confusion occurs among visually similar animal categories like cats and dogs.
 
 ## Project Structure
+```
 cnn-cifar10-pytorch
 │
 ├── train.py
@@ -64,6 +65,7 @@ cnn-cifar10-pytorch
 ├── confusion_matrix.png
 ├── README.md
 └── .gitignore
+```
 
 ## Installation
 Install dependencies:
@@ -84,4 +86,5 @@ This project demonstrates:
 - Applying data augmentation to improve model robustness
 - Using batch normalization and dropout to reduce overfitting
 - Evaluating model performance with confusion matrices and class-wise metrics
+
 
